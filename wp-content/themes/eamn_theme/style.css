@@ -1,0 +1,213 @@
+a {
+	color:#D9534F;
+}
+
+img.alignleft {
+	margin:10px;
+	float:left;
+}
+img.alignright {
+	margin:10px;
+	float:right;
+}
+
+#all {
+	margin-top:50px;
+}
+
+#logo {
+	height:40px;
+	margin:-10px 10px 0 10px;
+}
+
+.jumbotron {
+	padding:30px 0 0 0;
+	font-family: 'Lato', sans-serif;
+	background:#FFF;
+	max-width:100%;
+}
+
+.jumbotron .row {
+	max-width:100%;
+}
+
+.jumbotron h1 {
+	
+	font-weight:200;
+	font-size:7em;
+}
+
+.jumbotron .lead {
+	font-weight:500;
+	font-size:2em;
+}
+
+#jumboBorder {
+	margin-top:80px;
+	margin-left:0;
+	min-height:120px;
+	background:#D9534F;
+	color:#FFF;
+	font-size:1.5em;
+	font-weight:400;
+	position:relative;
+}
+
+#jumboBorder .col-md-3 {
+	padding-top:60px;
+}
+
+#mn-sphere {
+	position:absolute;
+	top:-60px;
+	left:45%;
+	background:#FFF;
+	border-radius:60px;
+	-webkit-border-radius:60px;
+	-moz-border-radius:60px;
+	-o-border-raduis:60px;
+}
+
+.post {
+	position:absolute;
+	top:0;
+	min-height:400px;
+	background:#EFEFEF;
+	width:95%;
+	padding-left:10px;
+	padding-right:10px;
+	margin-right:10px;
+	color:#222;
+}
+
+.tag-box {
+	background:#D9534F;
+	height:28px;
+	width:100%;
+	position:absolute;
+	left:0;
+	bottom:0;
+	color:#efefef;
+	padding:3px;
+}
+
+.tag-box a {
+	color:#ddd;
+}
+
+.tag-box a:hover {
+	color:#FFF;
+	text-decoration:none;
+}
+
+.post a h3:hover {
+	text-shadow:0px 4px 4px #999;
+	color:#D9534F;
+}
+
+.post a:hover {
+	text-decoration:none;
+}
+
+#main .col-md-4 {
+	min-height:410px;
+}
+
+#main {
+	min-height:500px;
+}
+
+#footer {
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	background:#333;
+	color:#efefef;
+}
+
+.clearfix:after {
+	clear:both;
+	height:1px;
+	width:100%;
+	content:' ';
+}
+
+.hasImage {
+	position:relative;
+	background:#FFF;
+}
+
+.hasImage .text,
+.hasImage .image {
+	position:absolute;
+	left:0;
+	width:100%;
+}
+
+.hasImage .text {
+	top:120px;
+	padding:5px;
+	bottom:0;
+	background:#efefef;
+}
+
+.hasImage .image {
+	top:0;
+	height:120px;
+	overflow:hidden;
+}
+
+.hasImage .image img {
+	width:100%;
+	height:auto;
+	opacity:0.7;
+}
+
+.hasImage:hover .image img {
+	opacity:1;
+}
+
+.author-block {
+  background:#EEE;
+  border-radius:5px;
+  -o-border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  padding:10px;
+  margin-bottom:1em;
+}
+
+.author-block h3 {
+  clear:both;
+  width:100%;
+  float:left;
+}
+
+#author-thumb {
+  float:left;
+  margin:5px 5px 5px 0;
+}
+
+.author-block #end-block {
+  clear:both;
+}
+
+@media only screen and (max-width:640px) {
+	.jumbotron .row {
+		margin-left:0;
+	}
+	
+	.jumbotron h1 {
+		font-size:5em;
+	}
+	
+	#main .col-md-4 {
+		margin-left:-10px;
+	}
+	
+	#mn-sphere {
+		left:34%;
+	}
+}
