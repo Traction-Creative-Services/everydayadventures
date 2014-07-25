@@ -30,6 +30,12 @@
 	            padding-bottom: 30px;
 	        }
 
+	        .login form {
+	        	background-color:#fff;
+	        	background:rgba(255,255,255,0.8);
+	        	color:#000;
+	        }
+
 	        body.login {
 	        	background-image: url("<?php echo get_stylesheet_directory_uri(); ?>/resources/images/admin-background.jpg");
 	        	background-repeat:repeat;
